@@ -1,0 +1,59 @@
+
+.oil{
+    font-size: 200%;
+    align-items: center;
+}
+.oil h1{
+    font-size: 200%;
+}
+.oil1{
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.Container{
+background-color:rgb(150, 148, 148);
+padding: 20px 30px;
+padding-bottom: 50px;
+display: grid;
+
+grid-template-columns: repeat(auto-fit , minmax(270px,1fr));
+gap: 60px;
+
+
+}
+.picture{
+border: 10%;
+padding: 15%;
+background-image: url("./WhatsApp\ Image\ 2024-05-05\ at\ 8.06.08\ PM.jpeg");
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+.picture p{
+    font-size: 20px;
+    
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+p {
+    margin: 0;
+}
+.container ul{
+    list-style-type: none;
+    color: #fff;
+}
+.navv{
+     color: #333;
+}
